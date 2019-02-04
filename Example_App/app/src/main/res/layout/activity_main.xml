@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Завдання 1: imageview, textview, button, sharedpreferences, file"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140px"
+        android:text="Завдання 2: Camera"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260px"
+        android:text="Завдання 3: DialogFragment"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380px"
+        android:text="Завдання 4: onSavedInstanceFragment"/>
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520px"
+        android:text="Завдання 5: API"/>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_marginTop="640px"
+        android:layout_height="wrap_content"
+        android:text="Завдання 6: FireBASe"/>
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_marginTop="760px"
+        android:layout_height="wrap_content"
+        android:text="Завдання 7: AlarmReceiver"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="890px"
+        android:gravity="center"
+        android:text="Пункт 8 описаний в коді программи"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="970px"
+        android:gravity="center"
+        android:text="Пункт 11 використаний в 9 пункті(Завдання 5)"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

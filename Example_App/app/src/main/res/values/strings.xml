@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Example_App</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+    <string name="photo">Take Photo</string>
+    <string name="video">Video</string>
+    <string name="dialog_1">Dialog 1</string>
+    <string name="message_text">2 + 2 = 4 ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="maybe">Maybe</string>
+</resources>

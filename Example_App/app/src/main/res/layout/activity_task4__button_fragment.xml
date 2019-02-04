@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Task_OnInstanceSave.Task4_ButtonFragment">
+    <fragment
+        android:id="@+id/fragment_withButton"
+        android:layout_width="match_parent"
+        android:layout_marginTop="300px"
+        android:layout_height="wrap_content"
+        android:name="com.example.hansolz.example_app.Task_OnInstanceSave.WithButton"
+        tools:layout="@layout/activity_with_button"/>
+    <fragment
+        android:id="@+id/fragment_withTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.hansolz.example_app.Task_OnInstanceSave.WithTextView"
+        tools:layout="@layout/activity_with_text_view"/>
+
+</RelativeLayout>
